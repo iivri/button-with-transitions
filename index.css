@@ -12,27 +12,37 @@
 }
 
 
-.orient button {
+.orient p {
     /* padding: 40px; */
     transition: font-size 3s;
     /* width: 200px; */
     font-size: small;
 }
 
-.orient button:hover {
+.orient p:hover {
     cursor: pointer;
     font-size: large;
 }
 
-p {
-
+button {
+    width: 158px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* background-color: red; */
+    /* color: white; */
     font-size: small;
-    transition: font-size 2s;
     text-align: center;
+}
+
+button {
+    transform: scale(1.5);
+    transition: all 2s ease-in-out;
+
 
 }
 
-p:hover {
-    font-size: large;
+button:hover {
+    font-size: x-large;
     cursor: pointer;
 }
