@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.orient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+
+.orient button {
+    /* padding: 40px; */
+    transition: font-size 3s;
+    /* width: 200px; */
+    font-size: small;
+}
+
+.orient button:hover {
+    cursor: pointer;
+    font-size: large;
+}
+
+p {
+
+    font-size: small;
+    transition: font-size 2s;
+    text-align: center;
+
+}
+
+p:hover {
+    font-size: large;
+    cursor: pointer;
+}
